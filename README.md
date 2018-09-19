@@ -75,7 +75,7 @@ click on "select plugin to install"
 click on "Install button"
 
 
-### NOTE: 
+#### NOTE: 
 
 Some of the plugins might fail and can be installed later as per the need
 
