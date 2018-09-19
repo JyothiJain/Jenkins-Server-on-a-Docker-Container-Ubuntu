@@ -84,4 +84,3 @@ Some of the plugins might fail and can be installed later as per the need
 #### Create a user and change the password(By default admin is the username and password is what we received from the terminal while starting jenkins server)
 
 Provide all the details and jenkins is ready to be used.
-''
