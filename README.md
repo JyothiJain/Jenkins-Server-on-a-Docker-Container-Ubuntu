@@ -32,13 +32,12 @@ docker images
 sudo chown -R 1000:1000 /home/Steve/Desktop/Jenkins_home
 
 #### NOTE: 
-“/home/steve/Desktop” here is suppose to be a physical location on your system
-
+“/home/steve/Desktop” here is suppose to be a physical location on your system (create Jenkins_home folder on the same location)
 
 
 #### Now start a jenkins server 
 
-docker run --name myjenkins -t -p 8080:8080 -p 50000:50000 -v /home/steve/Desktop/Jenkins_home:/var/jenkins_home jenkins
+docker run --name Jenkins -t -p 8080:8080 -p 50000:50000 -v /home/steve/Desktop/Jenkins_home:/var/jenkins_home jenkins
 
 #### NOTE:
 “/home/steve/Desktop” here is suppose to be a physical location on your system
